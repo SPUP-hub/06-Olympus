@@ -1,8 +1,91 @@
-# 🧠🤯 Psychologie & Profil de Personnalité
+# 🧠🤯 Psychologie & Profil de Personnalité — README (installation ultra-simple)
 
-Pour activer ce module :
-1) Ouvre [`metaprompt_psychologie_FR.md`](./metaprompt_psychologie_FR.md)
-2) Copie **tout** le texte
-3) Colle-le dans les instructions à garder dans la mémoire du projet de ChatGPT
+> Objectif : créer le **Projet ChatGPT** du module, déposer les **PDF** dans **Fichiers**, puis **coller le métaprompt** dans **Modifier les instructions**.  
+> Durée : 2–3 minutes.
 
-Le test de calibration se lance automatiquement au premier message.
+---
+
+## 0) Ce qu’il te faut sous la main
+
+- Le métaprompt : `metaprompt_psychologie_FR.md` (dans ce dossier)
+- Les PDF du module (téléchargeables depuis ce dossier GitHub) :
+  - **Catalogue de jeux** (PDF)
+  - **Catalogue de fonctions** (PDF)
+  - **Guide de lancement** (PDF, optionnel pour l’utilisateur)
+
+> Remarque : les noms exacts peuvent contenir des espaces. Peu importe : **uploade-les tels quels** dans le Projet ChatGPT.
+
+---
+
+## 1) Créer le **Projet ChatGPT**
+
+1. Ouvre ChatGPT → **Projects** (Projets).
+2. Clique **New project** → nomme-le : `Olympus – Psychologie`.
+3. (optionnel) Langue : **Français**.
+4. Le projet est créé : tu vois les onglets **Chat**, **Files**, etc.
+
+---
+
+## 2) Déposer les **PDF** dans *Files*
+
+1. Ouvre l’onglet **Files** du projet.
+2. Clique **Upload** (ou glisse-dépose) les PDF du module :
+   - *Catalogue de jeux – Psychologie (PDF)*
+   - *Catalogue de fonctions – Psychologie (PDF)*
+   - *Guide de lancement – Psychologie (PDF)*
+3. Attends la fin d’upload puis vérifie que les 2 catalogues apparaissent bien dans **Files**.
+   - Ces deux fichiers sont **indispensables** : le guide d’installation les prévoit explicitement [oai_citation:1‡🧠 🤯  Psychologie & Profil de Personnalité - Guide de Lancement.pdf](file-service://file-T3gpAbUdRFdP7ZfeXB8vcM).
+
+---
+
+## 3) Coller le **métaprompt** dans *Modifier les instructions*
+
+1. Reviens sur ce dépôt GitHub → ouvre `metaprompt_psychologie_FR.md`.
+2. Clique **Raw** (Brut) → `Cmd/Ctrl+A` → `Cmd/Ctrl+C` (tu copies **tout**).
+3. Retourne dans ton **Projet ChatGPT** → en haut à droite **⋯ (trois points)** → **Modifier les instructions**.
+4. Colle **l’intégralité** du texte dans le champ (remplace tout le contenu s’il y en a).
+5. Clique **Save / Enregistrer**.
+
+> Important : c’est **ici** que vit la logique du module (métaprompt). Les fichiers PDF restent dans **Files** et sont chargés par l’IA pendant l’exécution, comme prévu dans ton guide [oai_citation:2‡🧠 🤯  Psychologie & Profil de Personnalité - Guide de Lancement.pdf](file-service://file-T3gpAbUdRFdP7ZfeXB8vcM).
+
+---
+
+## 4) Lancer le module (calibration auto)
+
+1. Va dans l’onglet **Chat** du projet.
+2. Envoie un simple message (“Bonjour” suffit).  
+   → Le **test de calibration** démarre automatiquement au premier message, conformément au guide [oai_citation:3‡🧠 🤯  Psychologie & Profil de Personnalité - Guide de Lancement.pdf](file-service://file-T3gpAbUdRFdP7ZfeXB8vcM).
+3. Si la calibration ne se lance pas (rare), envoie la commande : **/jeu**.
+
+---
+
+## 5) Raccourcis utiles (à garder)
+
+- **Relancer le guide** : `/guide`  
+- **Passer à l’action immédiate** : `/OMG` (fonction momentum, décrite dans le guide [oai_citation:4‡🧠 🤯  Psychologie & Profil de Personnalité - Guide de Lancement.pdf](file-service://file-T3gpAbUdRFdP7ZfeXB8vcM))
+- **Catalogues** : ils sont déjà dans **Files** (jeux + fonctions). Pas besoin d’y retoucher.
+
+---
+
+## 6) Mises à jour (UI qui change)
+
+- L’emplacement **⋯ → Modifier les instructions** peut bouger (l’UI a changé récemment).  
+  **Règle d’or** : cherche toujours le menu “projet” en haut à droite ; colle le métaprompt dans le champ d’instructions **du projet** puis **Enregistrer**.
+- Si tu remplaces un PDF (nouvelle version), ré-uploade simplement dans **Files** (même nom ou nouveau nom).
+
+---
+
+## 7) Dépannage minute
+
+- **Je ne vois pas mes PDF** : retourne dans **Files** du projet et recharge la page ; si besoin, ré-uploade.  
+- **La calibration ne part pas** : envoie **/jeu**.  
+- **L’IA n’utilise pas les catalogues** : vérifie qu’ils sont bien présents dans **Files** du projet (pas seulement sur GitHub).
+
+---
+
+## 8) Où trouver les fichiers sur GitHub (si l’utilisateur veut les récupérer)
+
+- Métaprompt (Markdown) : `./metaprompt_psychologie_FR.md`
+- PDF (catalogues & guide) : dans ce même dossier.
+
+Bon décollage 🚀
