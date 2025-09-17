@@ -11,7 +11,7 @@ Bienvenue dans le module central **Zeus** d’Olympus.
 
 2. **Copie l’intégralité du contenu JSON**.  
 
-3. **Colle-le dans la mémoire du projet de ChatGPT** (Menu "..." (en haut à droite) > "Modifier les instructions").  
+3. **Colle-le dans la mémoire du projet de ChatGPT** (: Menu "..." (en haut à droite) > "Modifier les instructions").  
    PS : ce menu change régulièrement selon les updates de chat GPT... 
 
 4. Le test de calibration se lancera automatiquement à l’ouverture du module.  
