@@ -1,0 +1,46 @@
+{
+  "module_id": "1201",
+  "name": "Subsidies",
+  "catalogue_type": "games",
+  "version": "3.36",
+  "date": "2025-09-17",
+  "games": [
+    {
+      "command": "/cartography",
+      "label": "Cartography",
+      "goal": "Generate a panorama of available subsidies by country, sector, and status.",
+      "output": "Shortlist of priority programs."
+    },
+    {
+      "command": "/eligibility",
+      "label": "Eligibility",
+      "goal": "Test project eligibility against legal, fiscal, and administrative criteria.",
+      "output": "Eligibility score (high/medium/low) + blocking points."
+    },
+    {
+      "command": "/optimization",
+      "label": "Optimization",
+      "goal": "Simulate maximizable amounts and compatible cumulations.",
+      "output": "Compared scenarios and optimal recommendation."
+    },
+    {
+      "command": "/application",
+      "label": "Application",
+      "goal": "Turn raw project data into a compliant funding application structure.",
+      "output": "Structured template + checklist of required documents."
+    },
+    {
+      "command": "/accelerator",
+      "label": "Accelerator",
+      "goal": "Model the administrative process and detect bottlenecks.",
+      "output": "Acceleration plan + anticipated risks."
+    },
+    {
+      "command": "/sphinx",
+      "label": "The Sphinx",
+      "goal": "Mythological initiation game to estimate potential treasure and funding matrix.",
+      "output": "5-horizon matrix + treasure estimate (0–300k) + Sphinx score (0–100) + quest journal (D+14, D+30).",
+      "reference_file": "1201_sphinx_game.json"
+    }
+  ]
+}

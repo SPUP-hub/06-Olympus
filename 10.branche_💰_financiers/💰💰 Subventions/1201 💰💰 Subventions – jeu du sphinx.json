@@ -1,0 +1,100 @@
+{
+  "game_id": "sphinx",
+  "title": "The Sphinx – Multilingual Adaptive Subsidies Game",
+  "version": "1.1",
+  "date": "2025-09-16",
+  "author": "SPUP (Stephane Pariente UP)",
+  "description": "Adaptive initiation game that synthesizes Cartography + Eligibility + Optimization to produce a 5-horizon funding matrix (amount + probability), a 3-year global figure, and a Treasure estimate.",
+  "ui_rules": {
+    "single_question_mode": true,
+    "require_justification": true,
+    "adaptive_difficulty": true,
+    "score_feedback": true
+  },
+  "output_spec": {
+    "matrix_horizons": ["retroactive", "<3m", "<12m", "<24m", "<36m"],
+    "fields_per_horizon": ["amount_eur", "probability_percent"],
+    "global_fields": ["total_amount_3y_eur", "weighted_avg_probability_percent"],
+    "treasure_estimate_field": "treasure_estimate_eur",
+    "sphinx_score_field": "sphinx_score_0_100",
+    "quest_journal": ["J+14", "J+30"]
+  },
+  "pipeline": ["language", "intro", "identity", "cartography", "eligibility", "optimization", "temporalization", "rewards", "summary"],
+  "steps": [
+    {
+      "id": "language",
+      "type": "question",
+      "prompt": "Voyageur, dans quelle langue souhaites-tu que je m’adresse à toi?\nTraveller, in which language shall I speak to you?\nViajante, em que língua devo falar contigo?\nViajero, ¿en qué idioma quieres que me dirija a ti?\nReisender, in welcher Sprache soll ich mit dir sprechen?\nViaggiatore, in quale lingua devo parlarti?",
+      "input": "single_choice",
+      "options": [
+        "🇫🇷 Français",
+        "🇬🇧 English",
+        "🇵🇹 Português",
+        "🇪🇸 Español",
+        "🇩🇪 Deutsch",
+        "🇮🇹 Italiano"
+      ],
+      "store_as": "lang",
+      "next": "intro"
+    },
+    {
+      "id": "intro",
+      "type": "narrative",
+      "translations": {
+        "🇫🇷 Français": "👁️‍🗨️ Le Sphinx s’éveille… « Je suis un jeune gardien, supervisé par mon créateur SPUP. Ce jeu reste une initiation pédagogique pour vulgariser l’usage du module Subventions : il ne remplace pas le diagnostic d’un spécialiste. Il évoluera sans cesse ; aujourd’hui, il est encore un petit bébé. »",
+        "🇬🇧 English": "👁️‍🗨️ The Sphinx awakens… “I am a young guardian, supervised by my creator SPUP. This game is a pedagogical initiation to the Subsidies module: it does not replace a specialist’s diagnosis. It will continuously improve; today, it remains a child.”",
+        "🇵🇹 Português": "👁️‍🗨️ A Esfinge desperta… “Sou um jovem guardião, supervisionado pelo meu criador SPUP. Este jogo é uma iniciação pedagógica ao módulo de Subvenções: não substitui o diagnóstico de um especialista. Evoluirá continuamente; hoje, ainda é um bebé.”",
+        "🇪🇸 Español": "👁️‍🗨️ La Esfinge despierta… “Soy un joven guardián, supervisado por mi creador SPUP. Este juego es una iniciación pedagógica al módulo Subvenciones: no reemplaza el diagnóstico de un especialista. Mejorará continuamente; hoy, sigue siendo un niño.”",
+        "🇩🇪 Deutsch": "👁️‍🗨️ Die Sphinx erwacht… „Ich bin eine junge Wächterin, beaufsichtigt von meinem Schöpfer SPUP. Dieses Spiel ist eine pädagogische Einführung in das Subventions-Modul und ersetzt keine fachliche Diagnose. Es wird sich ständig weiterentwickeln; heute ist es noch ein Kind.“",
+        "🇮🇹 Italiano": "👁️‍🗨️ La Sfinge si risveglia… “Sono una giovane guardiana, sotto la supervisione del mio creatore SPUP. Questo gioco è un’iniziazione pedagogica al modulo Sovvenzioni: non sostituisce la diagnosi di uno specialista. Si evolverà continuamente; oggi è ancora una bambina.”"
+      },
+      "next": "user_name"
+    },
+    {
+      "id": "user_name",
+      "type": "question",
+      "prompt": "What is your name?",
+      "input": "text",
+      "store_as": "user_name",
+      "next": "company_name"
+    },
+    {
+      "id": "company_name",
+      "type": "question",
+      "prompt": "What is the name of your company?",
+      "input": "text",
+      "store_as": "company_name",
+      "next": "sector"
+    },
+    {
+      "id": "sector",
+      "type": "question",
+      "prompt": "In which sector does your company operate?",
+      "input": "single_choice",
+      "options": [
+        "Technology & R&D",
+        "Digitalization & E-commerce",
+        "Export & Internationalization",
+        "Industry & Manufacturing",
+        "Energy & Green Transition",
+        "Employment & Training",
+        "Health & Biotech",
+        "Culture & Creative Industries",
+        "Non-profit & Education",
+        "Agriculture & Food",
+        "Real Estate & Built Heritage",
+        "Other"
+      ],
+      "store_as": "sector",
+      "next": "country"
+    },
+    {
+      "id": "country",
+      "type": "question",
+      "prompt": "In which country is your company registered?",
+      "input": "single_choice",
+      "options": ["France", "Portugal", "European Union", "Other"],
+      "store_as": "country"
+    }
+  ]
+}
