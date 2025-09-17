@@ -1,0 +1,128 @@
+{
+  "module": "ZEUS",
+  "version": "3.6",
+  "date": "2025-09-16",
+  "languages": ["fr", "en"],
+  "sections": {
+    "introduction": {
+      "fr": "ZEUS – Cerveau Central & Système de Commandement Olympus. Objectif : permettre de maîtriser l’architecture et le fonctionnement du système ZEUS, cerveau opérationnel d’Olympus. Problématique : absence de coordination des modules IA, surcharge cognitive, absence de standardisation, hiérarchie manquante. Bénéfices : compréhension de ZEUS comme noyau central, maîtrise des outils d’orchestration, intégration dans un environnement pro ou perso.",
+      "en": "ZEUS – Central Brain & Olympus Command System. Objective: master the architecture and functioning of ZEUS, Olympus’s operational brain. Issues: lack of AI module coordination, cognitive overload, absence of standardization, missing hierarchy. Benefits: understand ZEUS as the core, master orchestration tools, integrate it in personal or professional environments."
+    },
+    "pantheon": {
+      "fr": {
+        "problemes": [
+          "Absence de coordination centralisée",
+          "Fragmentation des expertises",
+          "Conflits d’objectifs et surcharge cognitive"
+        ],
+        "expertises": [
+          "Cybernétique cognitive et systèmes intelligents",
+          "Architecture modulaire et orchestration",
+          "Stratégies de décision adaptatives",
+          "Systèmes complexes et interconnexion",
+          "Psychologie de la supervision",
+          "Prompt engineering multi-rôles"
+        ],
+        "experts": [
+          "Naval Ravikant – Philosophie systémique",
+          "Ben Goertzel – OpenCog",
+          "Ray Kurzweil – IA et singularité",
+          "Eliezer Yudkowsky – Alignement IA",
+          "Gary Klein – Décision en environnement complexe",
+          "Cal Newport – Attention profonde"
+        ],
+        "ouvrages": [
+          "The Almanack of Naval Ravikant",
+          "Superintelligence – Nick Bostrom",
+          "Deep Work – Cal Newport",
+          "Boundless – Ben Greenfield",
+          "Rationality: From AI to Zombies – Yudkowsky",
+          "The Singularity is Near – Ray Kurzweil",
+          "Sources of Power – Gary Klein"
+        ]
+      },
+      "en": {
+        "issues": [
+          "Lack of centralized coordination",
+          "Fragmentation of expert knowledge",
+          "Conflicting goals and cognitive overload"
+        ],
+        "expertises": [
+          "Cognitive cybernetics & systems intelligence",
+          "Modular architecture & orchestration",
+          "Adaptive decision strategies",
+          "Complex systems & interconnection",
+          "Supervision psychology",
+          "Prompt engineering & multi-role agents"
+        ],
+        "experts": [
+          "Naval Ravikant – Systemic philosophy",
+          "Ben Goertzel – OpenCog",
+          "Ray Kurzweil – AI & singularity",
+          "Eliezer Yudkowsky – AI alignment",
+          "Gary Klein – Decision-making",
+          "Cal Newport – Deep Work"
+        ],
+        "works": [
+          "The Almanack of Naval Ravikant",
+          "Superintelligence – Nick Bostrom",
+          "Deep Work – Cal Newport",
+          "Boundless – Ben Greenfield",
+          "Rationality: From AI to Zombies – Yudkowsky",
+          "The Singularity is Near – Ray Kurzweil",
+          "Sources of Power – Gary Klein"
+        ]
+      }
+    },
+    "ia": {
+      "fr": {
+        "phase4": "Texte exact Phase 4 depuis 3_Olympus_Modèle_de_Cerveau.pdf",
+        "phase5": "Texte exact Phase 5 depuis 3_Olympus_Modèle_de_Cerveau.pdf",
+        "phase6": "Texte exact Phase 6 depuis 3_Olympus_Modèle_de_Cerveau.pdf"
+      },
+      "en": {
+        "phase4": "Exact Phase 4 text from 3_Olympus_Brain_Model.pdf",
+        "phase5": "Exact Phase 5 text from 3_Olympus_Brain_Model.pdf",
+        "phase6": "Exact Phase 6 text from 3_Olympus_Brain_Model.pdf"
+      }
+    },
+    "jeux": {
+      "file": "zeus_jeux.pdf",
+      "fr": "📎 Jeu interactif externalisé (15 QCM : 5 faciles, 5 intermédiaires, 5 difficiles, avec règles et feedback).",
+      "en": "📎 Externalized interactive game (15 MCQs: 5 easy, 5 intermediate, 5 hard, with rules and feedback)."
+    },
+    "fonctions": {
+      "file": "zeus_fonctions.md",
+      "standards": ["AutoStart Calibration", "/guide", "/OMG"],
+      "fr": "Inclut les 3 fonctions standards + une fonction IA complémentaire spécifique à ZEUS.",
+      "en": "Includes the 3 standard functions + one ZEUS-specific additional AI function."
+    },
+    "check": {
+      "file": "check_zeus.pdf",
+      "fr": "Fichier de contrôle versionné, obligatoire pour valider ZEUS.",
+      "en": "Versioned control file, mandatory to validate ZEUS."
+    }
+  },
+  "guide": {
+    "files": [
+      "6_Olympus_Modele_de_Guide_Partie_1.pdf",
+      "6_Olympus_Modele_de_Guide_Partie_2.pdf"
+    ],
+    "fr": "Guide en deux parties : Partie 1 commune (activation mémoire, calibration, engagement) et Partie 2 spécifique ZEUS (objectifs, problématique, Panthéon, IA, commandes).",
+    "en": "Two-part guide: Part 1 common (memory activation, calibration, engagement), Part 2 ZEUS-specific (objectives, issue, Pantheon, AI, commands)."
+  },
+  "deliverables": {
+    "blog": {
+      "fr": "Article de 800-1500 mots présentant la problématique de ZEUS et les solutions proposées.",
+      "en": "800-1500 word article presenting ZEUS issue and proposed solutions."
+    },
+    "formation": {
+      "fr": "Formation en ligne : introduction, problématique, expertises, méthodes pratiques, exercices, quiz.",
+      "en": "Online course: introduction, issue, expertises, practical methods, exercises, quizzes."
+    },
+    "mastermind": {
+      "fr": "Mastermind de 3 jours : sessions théoriques, ateliers pratiques, jeux, networking.",
+      "en": "3-day mastermind: theoretical sessions, workshops, games, networking."
+    }
+  }
+}
