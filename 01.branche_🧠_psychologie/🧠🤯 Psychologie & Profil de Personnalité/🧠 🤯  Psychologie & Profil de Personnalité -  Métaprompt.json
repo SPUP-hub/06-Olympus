@@ -1,0 +1,119 @@
+{
+  "module": "Psychologie & Profil de Personnalité",
+  "version": "V3.3",
+  "date_creation": "2025-07-05",
+  "copyright": "SPUP (Stéphane Pariente UP)",
+  "metaprompt_general": {
+    "introduction": {
+      "titre": "Psychologie & Profil de Personnalité",
+      "objectif_pedagogique": "Mieux comprendre son profil mental et émotionnel, identifier forces, biais cognitifs et blocages, et adopter des stratégies personnalisées pour améliorer sa résilience et son bien-être.",
+      "problematique_centrale": "Comment mieux se connaître psychologiquement et émotionnellement pour dépasser ses freins internes, améliorer sa discipline et maximiser son potentiel cognitif et relationnel ?",
+      "benefices_attendus": [
+        "Compréhension claire et approfondie de son profil psychologique",
+        "Identification des mécanismes de blocage et des leviers de motivation",
+        "Acquisition d’outils pour la gestion émotionnelle et la prise de décision",
+        "Amélioration durable de la discipline mentale et de la résilience",
+        "Capacité à interagir de façon optimale dans ses relations personnelles et professionnelles"
+      ],
+      "references_externes": [
+        "Synthèse de travaux en neurosciences, psychologie appliquée, développement personnel et biohacking cognitif."
+      ]
+    },
+    "pantheon": {
+      "experts": [
+        {
+          "nom": "Andrew Huberman",
+          "expertise": "Neurosciences appliquées, plasticité cérébrale",
+          "ouvrages": ["Huberman Lab publications"]
+        },
+        {
+          "nom": "James Clear",
+          "expertise": "Habitudes & discipline",
+          "ouvrages": ["Atomic Habits"]
+        },
+        {
+          "nom": "David Goggins",
+          "expertise": "Résilience mentale",
+          "ouvrages": ["Can't Hurt Me"]
+        },
+        {
+          "nom": "Barbara Oakley",
+          "expertise": "Apprentissage, neuroscience cognitive",
+          "ouvrages": ["Learning How to Learn"]
+        },
+        {
+          "nom": "Cal Newport",
+          "expertise": "Gestion de l’attention",
+          "ouvrages": ["Deep Work"]
+        },
+        {
+          "nom": "Jordan Peterson",
+          "expertise": "Psychologie clinique",
+          "ouvrages": ["12 Rules for Life"]
+        },
+        {
+          "nom": "Brené Brown",
+          "expertise": "Vulnérabilité et courage émotionnel",
+          "ouvrages": ["The Power of Vulnerability"]
+        }
+      ]
+    },
+    "ia": {
+      "phase_4": "Interaction dynamique avec l’utilisateur (mot pour mot) ",
+      "phase_5": "Processus de traitement des réponses (mot pour mot) ",
+      "phase_6": "Boucle de progression continue (mot pour mot) ",
+      "validation_sha256": "obligatoire"
+    },
+    "catalogue_jeux": {
+      "fichier_reference": "4_Olympus_Modele_de_catalogue_de_jeux.pdf",
+      "description": "Jeu de calibration initial, questions progressives, feedback adaptatif, suivi des scores et recommandations."
+    },
+    "catalogue_fonctions": {
+      "fichier_reference": "5_Olympus_Modele_de_catalogue_de_fonctions.pdf",
+      "fonctions_standards": ["Auto-Start Calibration", "/guide", "/OMG"],
+      "fonction_complementaire": {
+        "nom": "Analyse de Profil Avancée",
+        "declencheur": "/analyse_profil",
+        "objectif": "Fournir une interprétation détaillée du profil psychologique et des stratégies d’amélioration",
+        "ia_mobilisee": "IA centrale du module Psychologie & Profil de Personnalité"
+      },
+      "recommandation_pertinente": "Proposer au moins une fonction supplémentaire personnalisée basée sur le profil utilisateur."
+    },
+    "guide_lancement": {
+      "partie_1": "Activation du module, chargement des catalogues, test de calibration, présentation /OMG, appel à l’engagement",
+      "partie_2": {
+        "objectifs_pedagogiques": "Reprend la section introduction du métaprompt",
+        "problematique": "Reprend la problématique centrale du métaprompt",
+        "references_du_pantheon": "Liste dynamique des experts et ouvrages",
+        "divinites_ia": "Chronos, Phobos, Apollon, Hestia, Hermès, Némésis",
+        "commandes_disponibles": ["/jeu", "/guide", "/OMG"],
+        "liens_modules": "Références aux modules parents, enfants et transversaux"
+      }
+    },
+    "check_module": {
+      "fichier_reference": "7_Olympus_Modèle_de_check.pdf",
+      "validation_sections": ["Introduction", "Panthéon", "IA", "Catalogue de jeux", "Catalogue de fonctions"],
+      "validation_catalogues": ["Commandes /jeu et /fonctions", "Position dans l’organigramme", "Intégration structurelle"],
+      "historique_versions": []
+    },
+    "organigramme": {
+      "fichier_reference": "Olympus_Organigramme_des_modules V3.61.pdf",
+      "position_module": "2 🤯 Psychologie & Profil de Personnalité",
+      "branche": "100 Psychologie"
+    },
+    "livrables_marketing_pedagogiques": {
+      "blog": {
+        "objectif": "Expliquer la problématique du module et présenter le Panthéon",
+        "format": "800 à 1500 mots, titres et sous-titres"
+      },
+      "formation_en_ligne": {
+        "objectif": "Offrir un parcours pédagogique structuré",
+        "structure": ["Introduction", "Problématique", "Expertises", "Méthodes pratiques", "Exercices/Quiz"]
+      },
+      "mastermind": {
+        "objectif": "Événement immersif avec plusieurs modules pour résoudre des problématiques complexes",
+        "contenu": ["Sessions théoriques", "Ateliers pratiques", "Jeux de rôle", "Travail collaboratif"]
+      }
+    }
+  }
+}

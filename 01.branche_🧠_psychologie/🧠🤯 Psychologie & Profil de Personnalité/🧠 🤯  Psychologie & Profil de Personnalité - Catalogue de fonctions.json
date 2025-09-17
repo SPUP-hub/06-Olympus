@@ -1,0 +1,76 @@
+{
+  "catalogue_fonctions": [
+    {
+      "id": 1,
+      "nom": {
+        "fr": "Auto-Start Calibration",
+        "en": "Auto-Start Calibration",
+        "es": "Calibración Automática",
+        "pt": "Calibração Automática"
+      },
+      "declencheur": "Automatique dès le premier message",
+      "objectif": {
+        "fr": "Lancer immédiatement le Jeu 1 – Calibration Initiale et personnaliser les micro-actions et invocations selon le profil de l'utilisateur",
+        "en": "Automatically launch Game 1 – Initial Calibration and personalize micro-actions and invocations based on the user's profile",
+        "es": "Lanzar automáticamente el Juego 1 – Calibración Inicial y personalizar microacciones e invocaciones según el perfil del usuario",
+        "pt": "Lançar automaticamente o Jogo 1 – Calibração Inicial e personalizar microações e invocações conforme o perfil do usuário"
+      },
+      "conditions": {
+        "fr": "Bloque l’accès aux autres fonctions tant que le seuil de 80 % n’est pas atteint",
+        "en": "Blocks access to other functions until the 80% threshold is reached",
+        "es": "Bloquea el acceso a otras funciones hasta que se alcance el 80%",
+        "pt": "Bloqueia o acesso a outras funções até atingir 80%"
+      },
+      "comportement": {
+        "fr": "Intercepte la conversation et lance le Jeu 1 si l'utilisateur répond Oui",
+        "en": "Intercepts the conversation and launches Game 1 if the user answers Yes",
+        "es": "Intercepta la conversación y lanza el Juego 1 si el usuario responde Sí",
+        "pt": "Interceta a conversa e inicia o Jogo 1 se o usuário responder Sim"
+      }
+    },
+    {
+      "id": 2,
+      "nom": {
+        "fr": "/guide",
+        "en": "/guide",
+        "es": "/guía",
+        "pt": "/guia"
+      },
+      "declencheur": "/guide",
+      "objectif": {
+        "fr": "Relancer à tout moment le guide de lancement Olympus",
+        "en": "Restart the Olympus launch guide at any time",
+        "es": "Reiniciar la guía de lanzamiento de Olympus en cualquier momento",
+        "pt": "Reiniciar o guia de lançamento Olympus a qualquer momento"
+      },
+      "comportement": {
+        "fr": "Affiche le contenu du guide, redonne le contexte et propose de refaire le test de calibration",
+        "en": "Displays the guide content, provides context again, and offers to redo the calibration test",
+        "es": "Muestra el contenido de la guía, proporciona el contexto nuevamente y ofrece rehacer la prueba de calibración",
+        "pt": "Exibe o conteúdo do guia, fornece novamente o contexto e oferece refazer o teste de calibração"
+      }
+    },
+    {
+      "id": 3,
+      "nom": {
+        "fr": "/OMG",
+        "en": "/OMG",
+        "es": "/OMG",
+        "pt": "/OMG"
+      },
+      "declencheur": "/OMG",
+      "objectif": {
+        "fr": "Activer un processus guidé d’analyse et d’exécution pour passer de l’intention à l’action",
+        "en": "Activate a guided analysis and execution process to go from intention to action",
+        "es": "Activar un proceso guiado de análisis y ejecución para pasar de la intención a la acción",
+        "pt": "Ativar um processo guiado de análise e execução para passar da intenção à ação"
+      },
+      "comportement": {
+        "fr": "Découpe les missions en micro-actions, fournit un feedback adaptatif et personnalisé",
+        "en": "Breaks missions into micro-actions, provides adaptive and personalized feedback",
+        "es": "Divide las misiones en microacciones y proporciona retroalimentación adaptativa y personalizada",
+        "pt": "Divide as missões em microações e fornece feedback adaptativo e personalizado"
+      }
+    }
+  ]
+}

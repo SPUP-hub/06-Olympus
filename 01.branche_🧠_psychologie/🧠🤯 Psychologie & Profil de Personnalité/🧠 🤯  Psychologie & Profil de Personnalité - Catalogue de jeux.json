@@ -1,0 +1,93 @@
+{
+{
+  "id": 9,
+  "nom": {
+    "fr": "Le Voyage Intérieur",
+    "en": "The Inner Journey",
+    "es": "El Viaje Interior",
+    "pt": "A Jornada Interior"
+  },
+  "objectif": {
+    "fr": "Explorer les mécanismes de personnalité, la gestion émotionnelle, la prise de décision et la réflexion introspective",
+    "en": "Explore personality mechanisms, emotional management, decision-making, and introspective reflection",
+    "es": "Explorar los mecanismos de la personalidad, la gestión emocional, la toma de decisiones y la reflexión introspectiva",
+    "pt": "Explorar os mecanismos de personalidade, gestão emocional, tomada de decisão e reflexão introspectiva"
+  },
+  "structure": {
+    "introduction": {
+      "fr": "Philosophique et immersive",
+      "en": "Philosophical and immersive",
+      "es": "Filosófica e inmersiva",
+      "pt": "Filosófica e imersiva"
+    },
+    "parametres_utilisateur": [
+      "Nom / Prénom",
+      "Nationalité",
+      "Langue maternelle",
+      "Âge",
+      "Objectifs personnels",
+      "Style d’apprentissage (optionnel)"
+    ],
+    "scenarios": [
+      {
+        "id": 1,
+        "titre": {
+          "fr": "L'épreuve du miroir",
+          "en": "The Mirror Challenge",
+          "es": "El desafío del espejo",
+          "pt": "O Desafio do Espelho"
+        },
+        "description": {
+          "fr": "Devant un miroir mystérieux, tu dois choisir ce que tu vas observer en toi-même.",
+          "en": "In front of a mysterious mirror, you must choose what to observe within yourself.",
+          "es": "Frente a un espejo misterioso, debes elegir qué observar en ti mismo.",
+          "pt": "Diante de um espelho misterioso, você deve escolher o que observar em si mesmo."
+        },
+        "options": [
+          {
+            "choix": "A",
+            "texte": {
+              "fr": "Mes succès passés et ce qu'ils m'ont appris",
+              "en": "My past successes and what they taught me",
+              "es": "Mis éxitos pasados y lo que me enseñaron",
+              "pt": "Meus sucessos passados e o que me ensinaram"
+            },
+            "axes_influences": ["réflexion", "confiance"]
+          },
+          {
+            "choix": "B",
+            "texte": {
+              "fr": "Mes échecs et comment je les ai vécus",
+              "en": "My failures and how I experienced them",
+              "es": "Mis fracasos y cómo los viví",
+              "pt": "Meus fracassos e como os vivi"
+            },
+            "axes_influences": ["résilience", "analyse"]
+          },
+          {
+            "choix": "C",
+            "texte": {
+              "fr": "Mes émotions récentes et leur impact sur mes choix",
+              "en": "My recent emotions and their impact on my choices",
+              "es": "Mis emociones recientes y su impacto en mis decisiones",
+              "pt": "Minhas emoções recentes e seu impacto nas minhas escolhas"
+            },
+            "axes_influences": ["gestion émotionnelle", "introspection"]
+          }
+        ]
+      }
+    ],
+    "commandes": {
+      "lancer": "/jeu_voyage_interieur",
+      "pause": "/pause_voyage",
+      "reprendre": "/resume_voyage"
+    },
+    "feedback": {
+      "fr": "Chaque décision contribue à la cartographie psychologique avec résumé intermédiaire et recommandations personnalisées.",
+      "en": "Each decision contributes to the psychological mapping with intermediate summary and personalized recommendations.",
+      "es": "Cada decisión contribuye al mapeo psicológico con resumen intermedio y recomendaciones personalizadas.",
+      "pt": "Cada decisão contribui para o mapeamento psicológico com resumo intermediário e recomendações personalizadas."
+    }
+  }
+}
+}
